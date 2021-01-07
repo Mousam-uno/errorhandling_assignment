@@ -1,0 +1,15 @@
+1) http://localhost:8081/hello
+
+
+2)http://localhost:8081/post/{uriparam_id}
+ex:  http://localhost:8081/post/1
+
+
+3) post method
+	http://localhost:8081/accounts
+	Body contenttype - application/json
+	{
+  "accountId":"123",
+  "accountType":"saving",
+  "accountname":"rahul"
+}
